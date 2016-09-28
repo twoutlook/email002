@@ -6,6 +6,9 @@ from email.parser import HeaderParser
 from imaplib_list_parse import parse_list_response
 from email.header import decode_header
 # https://docs.python.org/3/library/email.header.html
+# https://docs.python.org/3/library/email-examples.html
+
+
 M = imaplib_connect.open_connection()
 
 M.select()
