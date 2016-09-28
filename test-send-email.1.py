@@ -42,7 +42,7 @@ def send_testing_email():
     # you = ["s1@skyrock-casting.org,chenpingling@protonmail.com, chenpingling@gmail.com"]
     #you = "chenpingling@protonmail.com, chenpingling@gmail.com"
     # you = "chenpingling@gmail.com"
-    you = ["s1@skyrock-casting.org","chenpingling@protonmail.com", "chenpingling@gmail.com"]
+    you = ["mark.chen@fulltech-metal.com" ,"mark.chen@skyrock-casting.com","s1@skyrock-casting.org","chenpingling@protonmail.com", "chenpingling@gmail.com"]
     #
     print (me, you)
   
