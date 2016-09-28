@@ -1,4 +1,6 @@
 import sys,traceback
+import getopt
+
 import base64
 import email
 import imaplib
@@ -39,7 +41,7 @@ def mark001_decode(src):
     
 
 # http://stackoverflow.com/questions/1187970/how-to-exit-from-python-without-traceback
-def main():
+def main(argv):
     # src="""
     #     =?UTF-8?B?b3Jn5ris6Kmm5LqM6JmfbWFpbGJveA==?= <s2@skyrock-casting.org>, 
     #     =?UTF-8?B?b3Jn5ris6Kmm5LiA?= <s1@skyrock-casting.org>, 
@@ -49,5 +51,9 @@ def main():
         =?UTF-8?B?5Li76aGMIOWwseaYryBTdWJqZXQsIOWcqOa4rOepuueZveeahOWVj+mhjA==?=
         """
     print (mark001_decode(src))
+    print (argv)
+    
+    
+# https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1])
